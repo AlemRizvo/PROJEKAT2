@@ -9,112 +9,97 @@
 <title>VIJESTI</title>	
 	
 <style>
-	
-	#red {
-		color:red
-	}	
-	
-	.black {
-		color:black
-	}
-	
-	.grey {
-		color:#A4A4A4
-	}
-	
-	.container-fluid {
-		display:inline;
-		float:left;
-		width:80%;
+
+	body a {
+		color:black;
 		
-		    
+	}
+
+	body a:hover {
+		color:red;
+		text-decoration: none
+	}
+
+	.article{
+		color: #A4A4A4;
 	}
 	
-	.container-fluid p {
-		width:90%;
+	.article p {
 	    text-align:left;
 		font-size:16px
 	}
 	
-	wrapper {
-		position:absolute;
-		top:270px;
-		left:60px;
-	}
-	
-	.container-fluid h2 {
+	.article h2 {
+		color: black;
 		font-size:25px;
-		width:95%;
 		margin-top:10px
+	}
+
+	.img{
+		position: relative;
+	}
+
+	.overlay{
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0
+	}
+
+	.img:hover .overlay {
+		display:block
 	}
 </style>	
 	
 </head>
 
-
-
 <body>
 
-<wrapper>
-  <div class="container-fluid col-12 col-sm-6 col-lg-3">
-	  <div class="row">
-	  <img src="images/img1.png">
-	
-	  <h2 id="red">Zavrsetak radova na izgradnji rukometnog igralista</h2>
-	  <p class="grey">Primopredajom radova u cetvrtak 10.11.2016 godine , uz pristusvo predstavnika investitora i izvodjaca
-	  radova sluzbenosu okoncani radovi na izgradnji vanjskog rukometnog igralista u sklopu osnovne skole
-	  Behaudin Selmanovic u...</p><br>
-	  <span class="grey">12.11.2016</span>
-		  </div>
-  </div>
-	
-	  
-
-	
-
-
-  <div class="container-fluid col-12 col-sm-6 col-lg-3">
+<div class="container-fluid">
 	<div class="row">
-	  <img src="images/img2.png">
-	
-	  <h2 class="black">Rekonstrukcija centralnog gradskog trga u Travniku</h2>
-	  <p class="grey">Nacenlink opcine Travnik , Admir Hadziemric(SDA) i direkotr firme "Dinalsa" Sarajevo,
-	  Nusret Bajramovic potpisali su danas u Travniku ugovor o realizaciji projekta rekonstrukcije
-	  centralnog gradskog trga vrijedan 350 hiljada...</p>
-	  <span class="grey">26.08.2016</span>
+		<div class="article col-12 col-sm-6 col-lg-3">
+			<div class="img">
+				<img alt="" src="img1.jpg" class="img-fluid">
+				<div class="overlay">a</div>
+			</div>
+			<h2><a href="#">naslov</a></h2>
+			<p>Primopredajom radova u cetvrtak 10.11.2016 godine , uz pristusvo predstavnika investitora i izvodjaca
+			radova sluzbenosu okoncani radovi na izgradnji vanjskog rukometnog igralista u sklopu osnovne skole
+			Behaudin Selmanovic u...</p><br>
+			<span>12.11.2016</span>
+		</div>
+
+		<div class="article col-12 col-sm-6 col-lg-3">
+			<img alt="" src="img1.jpg" class="img-fluid">
+			
+			<h2>Rekonstrukcija centralnog gradskog trga u Travniku</h2>
+			<p>Nacenlink opcine Travnik , Admir Hadziemric(SDA) i direkotr firme "Dinalsa" Sarajevo,
+			Nusret Bajramovic potpisali su danas u Travniku ugovor o realizaciji projekta rekonstrukcije
+			centralnog gradskog trga vrijedan 350 hiljada...</p>
+			<span class="date">26.08.2016</span>
+			</div>	  
+
+		<div class="article col-12 col-sm-6 col-lg-3">
+			<img alt="" src="img1.jpg" class="img-fluid">
+			
+			<h2>Pocetak radova na izgradnji stambenog kompleksa Lebenswelt Aigen Salzburg</h2>
+			<p>Pocetkom mjeseca Aprila zapoceli su radovi na izgradnji stambeno poslovnog kompleksa 
+			Lebenswelt Aigen u Salzburgu Dinalsa d.o.o  zajedno sa svojim partnerom Elektro Schartner GmbH
+			angazovana na izradi...</p>
+			<span>20.05.2016</span>
 		</div>  
-	</div>	  
 
-	
-
-  <div class="container-fluid col-12 col-sm-6 col-lg-3">
-	 <div class="row">
-	  <img src="images/img3.png">
-	
-	  <h2 class="black">Pocetak radova na izgradnji stambenog kompleksa Lebenswelt Aigen Salzburg</h2>
-	  <p class="grey">Pocetkom mjeseca Aprila zapoceli su radovi na izgradnji stambeno poslovnog kompleksa 
-	  Lebenswelt Aigen u Salzburgu Dinalsa d.o.o  zajedno sa svojim partnerom Elektro Schartner GmbH
-	  angazovana na izradi...</p>
-	  <span class="grey">20.05.2016</span>
-		 </div> 
-  </div>  
-
-	
-	
-
-  <div class="container-fluid col-12 col-sm-6 col-lg-3">
-	  <div class="row">
-	  <img src="images/img4.png">
-	
-	  <h2 class="black">Zavrsetak radova na izgradnji rukometnog igralista</h2>
-	  <p class="grey">Primopredajom radova u cetvrtak 10.11.2016 godine , uz pristusvo predstavnika investitora i izvodjaca
-	  radova sluzbenosu okoncani radovi na izgradnji vanjskog rukometnog igralista u sklopu osnovne skole
-	  Behaudin Selmanovic u...</p>
-	  <span class="grey">12.11.2016</span>
-		  </div>
-  </div>
-
-</wrapper>	
+		<div class="article col-12 col-sm-6 col-lg-3">
+			<img  alt="" src="img1.jpg" class="img-fluid">
+			
+			<h2>Zavrsetak radova na izgradnji rukometnog igralista</h2>
+			<p>Primopredajom radova u cetvrtak 10.11.2016 godine , uz pristusvo predstavnika investitora i izvodjaca
+			radova sluzbenosu okoncani radovi na izgradnji vanjskog rukometnog igralista u sklopu osnovne skole
+			Behaudin Selmanovic u...</p>
+			<span>12.11.2016</span>
+		</div>
+	</div>
+</div>	
 	
 </body>
 
