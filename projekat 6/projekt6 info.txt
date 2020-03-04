@@ -1,0 +1,23 @@
+height: 668px;
+weight: 1572px;
+vanjski razmak(margin): 30px;
+lijevi razmak: 199px;
+desni razmak: 203px;
+gornji razmak: 43px;
+donji razmak: 68px;
+
+Paragraf:
+
+color: 051b4e; tamno-plava !
+tip fona: myriad pro;
+regular
+16px
+sharp
+
+Heading:
+
+color: 051b4e; tamno-plava !
+tip fonta: myriad pro
+regular
+36px
+sharp
